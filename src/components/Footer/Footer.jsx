@@ -34,15 +34,14 @@ const Footer = () => {
           </div>
           <div className="w-full sm:w-1/2">
             <p className="text-gray-300 leading-7 sm:mt-0">
-              I showcase not just a set of skills but a commitment to
-              excellence and a passion for creating digital experiences that
-              resonate. Let's embark on a journey to bring your web projects to
-              life!
+              I showcase not just a set of skills but a commitment to excellence
+              and a passion for creating digital experiences that resonate.
+              Let's embark on a journey to bring your web projects to life!
             </p>
             <br />
-           
+
             <div className="flex item-center gap-4 flex-wrap md:gap-8 mt-10">
-            <span className="text-gray-300 font-[600] text-[15px]">
+              <span className="text-gray-300 font-[600] text-[15px]">
                 Follow Me:
               </span>
               <span className="w-[35px] h-[35px] bg-[#2b2d33] p-1 rounded-[50px] cursor-pointer text-center">
@@ -63,11 +62,10 @@ const Footer = () => {
               </span>
             </div>
             <div className="mt-10">
-            <p className="text-gray-300 leading-7 font-[500] sm:mt-0">
-              Email : astkout12@hotmail.com
-            </p>
+              <p className="text-gray-300 leading-7 font-[500] sm:mt-0">
+                Email : astkout12@hotmail.com
+              </p>
             </div>
-            
           </div>
         </div>
         <div className="menu">
@@ -92,21 +90,16 @@ const Footer = () => {
       </div>
       {/* ========== footer bottom ======== */}
       <div className="bg-[#1b1e29] py-3 mt-14 text-center">
-  <div className="container flex justify-center items-center h-full">
-    <div className="flex flex-col items-center">
-      <p className="text-gray-400 text-[14px]">
-        Copyright © {year}
-      </p>
-      <p className="text-gray-400 text-[12px]">
-        Developed by Asterios Koutoulidis
-      </p>
-      <p className="text-gray-400 text-[10px]">
-        All rights reserved
-      </p>
-    </div>
-  </div>
-</div>
-
+        <div className="container flex justify-center items-center h-full">
+          <div className="flex flex-col items-center">
+            <p className="text-gray-400 text-[14px]">Copyright © {year}</p>
+            <p className="text-gray-400 text-[12px]">
+              Developed by Asterios Koutoulidis
+            </p>
+            <p className="text-gray-400 text-[10px]">All rights reserved</p>
+          </div>
+        </div>
+      </div>
 
       {/* ========== footer bottom end ======== */}
     </footer>
