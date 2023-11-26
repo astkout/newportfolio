@@ -71,7 +71,7 @@ const Header = () => {
                   className="text-smallTextColor font-semibold"
                   href="#services"
                 >
-                  About Me
+                  About
                 </a>
               </li>
               <li>
