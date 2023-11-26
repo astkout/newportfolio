@@ -6,13 +6,13 @@ const Modal = ({ activeID, setShowModal }) => {
 
   return (
     <div className="w-full h-full fixed top-0 left-0 z-10 bg-headingColor bg-opacity-40">
-      <div className="w-19/12 md:max-w-[600px] md:w-full absolute top-1/2 left-1/2 bg-white rounded-[8px] transform -translate-x-1/2 -translate-y-1/2 p-5  ">
+      <div className="w-19/12 md:max-w-[600px] md:w-full absolute top-1/2 left-1/2 bg-white rounded-[8px] transform -translate-x-1/2 -translate-y-1/2 p-5">
         <figure>
           <img className="rounded-[8px] z-30" src={portfolio.imgUrl} alt="" />
         </figure>
 
         <div>
-          <h2 className="textz-2xl text-headingColor font-[700] my-5">
+          <h2 className="text-2xl text-headingColor font-[700] my-5">
             {portfolio.title}
           </h2>
           <p className="text-[15px] leading-7 text-smallTextColor">
@@ -35,16 +35,14 @@ const Modal = ({ activeID, setShowModal }) => {
           </div>
           <a href={portfolio.siteUrl}>
             <button
-              className="bg-blue-600 text-white py-2 px-4 my-8 rounded-[8px] font-[500]
-              hover:bg-headingColor eae-in duration-300"
+              className="bg-blue-600 text-white py-2 px-4 my-8 rounded-[8px] font-[500] hover:bg-headingColor ease-in duration-300"
             >
               Live Site
             </button>
           </a>
           <a href={portfolio.siteUrla}>
             <button
-              className="bg-blue-600 text-white py-2 px-4 my-8 rounded-[8px] font-[500] mx-2
-              hover:bg-headingColor eae-in duration-300"
+              className="bg-blue-600 text-white py-2 px-4 my-8 rounded-[8px] font-[500] mx-2 hover:bg-headingColor ease-in duration-300"
             >
               Github
             </button>

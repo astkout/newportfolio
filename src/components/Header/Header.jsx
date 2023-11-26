@@ -59,7 +59,7 @@ const Header = () => {
               <li>
                 <a
                   onClick={handleClick}
-                  className="text-smallTextColor font-semibold "
+                  className="text-smallTextColor font-semibold"
                   href="#about"
                 >
                   Home
@@ -80,16 +80,16 @@ const Header = () => {
                   className="text-smallTextColor font-semibold"
                   href="#portfolio"
                 >
-                 Projects
+                  Projects
                 </a>
-              </li>{" "}
+              </li>
             </ul>
           </div>
           {/* ============== menu end ================= */}
 
           {/* ========= menu right ========= */}
           <div className="flex items-center gap-4">
-          <a href="#contact">
+            <a href="#contact">
               <button
                 className="flex items-center gap-2
              text-smallTextColor font-semibold border
@@ -99,7 +99,6 @@ const Header = () => {
               >
                 <i
                   onClick={handleClick}
-                  href="#contact"
                   className="ri-mail-send-line"
                 ></i>{" "}
                 Contact Me

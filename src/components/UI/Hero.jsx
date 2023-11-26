@@ -27,21 +27,21 @@ function Hero() {
             <h5
               data-aos="fade-right"
               data-aos-duration="1500"
-              className="text-headingColor font-[600] text-[20px]"
+              className="text-headingColor font-[600] text-[25px]"
             >
               Hi,
             </h5>
             <h1
               data-aos="fade-up"
               data-aos-duration="1500"
-              className="text-headingColor  font-[800] text-[50px] sm:text-[30px] leading-[35px] sm:leading-[40px] mt-5 mb-"
+              className="text-headingColor font-[800] text-[50px] sm:text-[30px] leading-[35px] sm:leading-[40px] mt-5 mb-"
             >
               I'm Asterios
             </h1>
             <h1
               data-aos="fade-up"
               data-aos-duration="1500"
-              className="text-headingColor  font-[800] text-[50px] sm:text-[30px] leading-[35px] sm:leading-[40px]"
+              className="text-headingColor font-[800] mt-4 text-[50px] sm:text-[30px] leading-[35px] sm:leading-[40px]"
             >
               Koutoulidis
             </h1>
