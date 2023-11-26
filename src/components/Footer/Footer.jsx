@@ -25,12 +25,22 @@ const Footer = () => {
             <h2 className="text-[26px] leading-10 text-white font-[600] mb-5 md:text-2xl">
               Reach out and let's turn your digital ideas into reality.
             </h2>
-            <button
-              className="flex items-center gap-2 text-blue-500 font-semibold border border-blue-500 py-2 px-4 rounded-[30px] max-h-[40] hover:bg-smallTextColor hover:text-white hover:font-[500] ease-in duration-300"
-              onClick={handleClick}
-            >
-              <i className="ri-mail-send-line"></i> Contact Me
-            </button>
+            
+            <a href="#contact">
+              <button
+                className="flex items-center gap-2 mb-4
+             text-blue-500 font-semibold border
+              border-blue-500 py-2 px-4 rounded-[30px] max-h-[40]
+               hover:bg-smallTextColor
+                hover:text-white hover:font-[500] ease-in duration-300"
+              >
+                <i
+                  onClick={handleClick}
+                  className="ri-mail-send-line"
+                ></i>{" "}
+                Contact Me
+              </button>
+            </a>
           </div>
           <div className="w-full sm:w-1/2">
             <p className="text-gray-300 leading-7 sm:mt-0">
