@@ -18,14 +18,14 @@ const portfolios = [
   },
   {
     id: "02",
-    imgUrl: portfolio,
+    imgUrl: medicare,
     category: "Web Design",
-    title: "My first portfolio.",
+    title: "Medicare",
     description:
-      "My first personal portfolio",
-    technologies: ["React", "SCSS", "Node.js",],
-    siteUrl: "https://portfolio-ruddy-zeta-63.vercel.app/",
-    siteUrla: "https://github.com/astkout/portfolio",
+      "My first medical page.",
+    technologies: ["React", "Tailwind", "Node.js",],
+    siteUrl: "https://medicare-git-main-astkout.vercel.app/home",
+    siteUrla: "https://github.com/astkout/medicare",
   },
   {
     id: "03",
@@ -62,6 +62,18 @@ const portfolios = [
     siteUrla: "https://github.com/astkout/DrumKit",
   }
  ,
+ {
+  id: "02",
+  imgUrl: drumkit,
+  category: "Ux",
+  title: "Drumkit Interactive Game.",
+  description:
+    "An interactive Drum Kit web app which you can have fun with :)",
+  technologies: ["Html", "CSS", "Javascript"],
+  siteUrl: "https://astkout.github.io/DrumKit/",
+  siteUrla: "https://github.com/astkout/DrumKit",
+}
+
 
   //   {
   //     id: "06",

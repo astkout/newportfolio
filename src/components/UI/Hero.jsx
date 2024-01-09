@@ -21,7 +21,7 @@ function Hero() {
   return (
     <section className="pt-10" id="about">
       <div className="container pt-14">
-        <div className="md:flex items-center justify-beteen sm:flex-col md:flex-row">
+        <div className="md:flex items-center justify-between sm:flex-col md:flex-row">
           {/* ========== hero left content =========== */}
           <div className="w-full md:basis-1/2">
             <h5
@@ -125,10 +125,11 @@ function Hero() {
           </div>
           {/* ============ hero left end ============= */}
           {/* ============ hero img ============= */}
-          <div className="basis-1/3 mt-10 sm:mt-0"></div>
-          <figure className="flex items-center justify-center h-3/5 w-3/5">
+          <div className="basis-1/3 mt-10 sm:mt-0 sm:flex ">
+          <figure className="flex items-center justify-center h-3/5 w-3/5 sm:flex sm:justify-center">
             <img src={heroImg} alt="img" />
           </figure>
+          </div>
           {/* ============ hero end ============= */}
           {/* ============ hero content right ============= */}
           <div
