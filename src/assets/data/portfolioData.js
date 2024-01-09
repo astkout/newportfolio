@@ -62,17 +62,17 @@ const portfolios = [
     siteUrla: "https://github.com/astkout/DrumKit",
   }
  ,
- {
-  id: "02",
-  imgUrl: drumkit,
-  category: "Ux",
-  title: "Drumkit Interactive Game.",
-  description:
-    "An interactive Drum Kit web app which you can have fun with :)",
-  technologies: ["Html", "CSS", "Javascript"],
-  siteUrl: "https://astkout.github.io/DrumKit/",
-  siteUrla: "https://github.com/astkout/DrumKit",
-}
+//  {
+//   id: "05",
+//   imgUrl: drumkit,
+//   category: "Ux",
+//   title: "Drumkit Interactive Game.",
+//   description:
+//     "An interactive Drum Kit web app which you can have fun with :)",
+//   technologies: ["Html", "CSS", "Javascript"],
+//   siteUrl: "https://astkout.github.io/DrumKit/",
+//   siteUrla: "https://github.com/astkout/DrumKit",
+// }
 
 
   //   {
