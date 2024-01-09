@@ -126,7 +126,7 @@ function Hero() {
           {/* ============ hero left end ============= */}
           {/* ============ hero img ============= */}
           <div className="basis-1/3 mt-10 sm:mt-0 sm:flex ">
-          <figure className="flex items-center justify-center h-3/5 w-3/5 sm:flex sm:justify-center">
+          <figure className="flex items-center justify-center sm:[h-3/5 w-3/5] sm:flex sm:justify-center">
             <img src={heroImg} alt="img" />
           </figure>
           </div>
