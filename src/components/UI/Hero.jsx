@@ -1,10 +1,8 @@
 import React from "react";
 import heroImg from "../../assets/images/Hero.png";
-import cv from "../../assets/data/cv.pdf"
+import cv from "../../assets/data/cv.pdf";
 
 function Hero() {
-
-
   const handleClick = (e) => {
     e.preventDefault();
 
@@ -58,35 +56,35 @@ function Hero() {
               data-aos-delay="200"
               className="flex items-center gap-6 mt-5"
             >
-             <a href="#contact">
-              <button
-                className="flex items-center gap-2
+              <a href="#contact">
+                <button
+                  className="flex items-center gap-2
                 text-smallTextColor
               border-smallTextColor font-semibold border
               py-2 px-4 rounded-[30px] max-h-[40]
                hover:bg-smallTextColor
                 hover:text-white hover:font-[500] ease-in duration-300"
-              >
-                <i
-                  onClick={handleClick}
-                  href="#contact"
-                  className="ri-mail-send-line"
-                ></i>{" "}
-                Contact Me
-              </button>
-            </a>
-            <a href={cv} download="CV.pdf">
-            <button className="flex items-center gap-2
+                >
+                  <i
+                    onClick={handleClick}
+                    href="#contact"
+                    className="ri-mail-send-line"
+                  ></i>{" "}
+                  Contact Me
+                </button>
+              </a>
+              <a href={cv} download="CV.pdf">
+                <button
+                  className="flex items-center gap-2
                 text-smallTextColor
               border-smallTextColor font-semibold border
               py-2 px-4 rounded-[30px] max-h-[40]
                hover:bg-smallTextColor
-                hover:text-white hover:font-[500] ease-in duration-300">
-            <i 
-            class="ri-folder-3-line">
-            </i>
-               My CV
-              </button>
+                hover:text-white hover:font-[500] ease-in duration-300"
+                >
+                  <i class="ri-folder-3-line"></i>
+                  My CV
+                </button>
               </a>
             </div>
             <p
@@ -97,8 +95,7 @@ function Hero() {
               <span>
                 <i class="ri-apps-2-line"></i>
               </span>
-              Dedicated web developer with proficiency in front-end and back-end
-              technologies.
+              Web developer with proficiency in front-end technologies.
             </p>
 
             <div className="flex items-center gap-9 mt-12">
@@ -126,9 +123,9 @@ function Hero() {
           {/* ============ hero left end ============= */}
           {/* ============ hero img ============= */}
           <div className="basis-1/3 mt-10 sm:mt-0 sm:flex ">
-          <figure className="flex items-center justify-center sm:[h-3/5 w-3/5] sm:flex sm:justify-center">
-            <img src={heroImg} alt="img" />
-          </figure>
+            <figure className="flex items-center justify-center sm:[h-3/5 w-3/5] sm:flex sm:justify-center">
+              <img src={heroImg} alt="img" />
+            </figure>
           </div>
           {/* ============ hero end ============= */}
           {/* ============ hero content right ============= */}
@@ -144,4 +141,3 @@ function Hero() {
 }
 
 export default Hero;
-

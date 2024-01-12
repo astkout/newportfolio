@@ -27,16 +27,14 @@ const Services = () => {
             About me
           </h2>
           <p className="lg:max-w-600 lg:mx-auto text-headingColor font-semibold text-16px leading-7">
-            Web developer skilled in both front-end and back-end technologies,
-            proficient in HTML5, CSS3, Tailwind CSS, and Bootstrap 5 for
-            creating visually appealing and responsive interfaces. Specialized
-            in JavaScript, React.js, and jQuery to enhance website
-            interactivity. Adept at version control with Git and experienced in
-            building server-side applications using Node.js and Express.js, with
-            a strong focus on API integration for seamless data and service
-            connections. Possesses in-depth knowledge of PostgreSQL and SQL for
-            effective database management and optimization. Committed to
-            delivering high-quality, performance-oriented web applications.
+            Front end web developer proficient in HTML5, CSS3, Tailwind CSS,
+            and Bootstrap 5 for responsive interfaces. Experienced in
+            JavaScript, React.js, and jQuery for enhanced interactivity. Skilled
+            in Git version control and adept at building server-side
+            applications using Node.js and Express.js, with a focus on API
+            integration. Basic knowledge of MongoDB for database management.
+            Committed to delivering high-quality, performance-oriented web
+            applications.
           </p>
         </div>
 
@@ -54,16 +52,15 @@ const Services = () => {
                       className="bg-white p-4 rounded shadow group hover:bg-blue-500 cursor-pointer transition ease-in duration-150"
                     >
                       <h3 className="text-blue-500 font-bold mb-3 group-hover:text-white group-hover:font-semibold text-2xl">
-                        Frontend Development
+                        <u>Frontend Development</u>
                       </h3>
 
                       <p className="text-15 text-blue-500 group-hover:text-white group-hover:font-semibold leading-7">
-                        I leverage my expertise in HTML5, CSS3, Tailwind CSS,
-                        and Bootstrap 5. These tools allow me to create
-                        responsive and visually appealing user interfaces that
-                        engage and captivate. My proficiency extends to
-                        JavaScript, React.js, and jQuery, enabling me to enhance
-                        website interactivity and elevate user experiences.
+                        I excel in HTML5, CSS3, Tailwind CSS, and Bootstrap 5,
+                        crafting visually appealing and responsive user
+                        interfaces. Proficient in JavaScript, React.js, and
+                        jQuery, I enhance website interactivity for captivating
+                        user experiences.
                       </p>
                     </div>
                   </div>
@@ -90,18 +87,14 @@ const Services = () => {
                       className="bg-white p-4 rounded shadow group hover:bg-blue-500 cursor-pointer transition ease-in duration-150"
                     >
                       <h3 className="text-blue-500 font-bold mb-3 group-hover:text-white group-hover:font-semibold text-2xl">
-                        Backend Development
+                        <u>Backend Development</u>
                       </h3>
 
                       <p className="text-15 text-blue-500 group-hover:text-white group-hover:font-semibold leading-7">
-                        My back-end development skills revolve around Node.js
-                        and Express.js, providing a robust foundation for
-                        building server-side applications. With a keen
-                        understanding of version control using Git, I ensure the
-                        seamless collaboration and management of code.
-                        Additionally, my knowledge of PostgreSQL and SQL
-                        empowers me in efficient database management and query
-                        optimization.
+                        Knowledge in back-end development using Node.js and
+                        Express.js for server-side applications. Proficient in
+                        Git for seamless code collaboration, and in MongoDB for
+                        database management and query optimization.
                       </p>
                     </div>
                   </div>
@@ -128,17 +121,13 @@ const Services = () => {
                       className="bg-white p-4 rounded shadow group hover:bg-blue-500 cursor-pointer transition ease-in duration-150"
                     >
                       <h3 className="text-blue-500 font-bold mb-3 group-hover:text-white group-hover:font-semibold text-2xl">
-                        UI/UX Design
+                        <u>UI/UX Design</u>
                       </h3>
 
                       <p className="text-15 text-blue-500 group-hover:text-white group-hover:font-semibold leading-7">
-                        User interface and experience development are at the
-                        core of my expertise. I am dedicated to creating
-                        interfaces that not only meet but exceed user
-                        expectations. By staying current with design principles
-                        and incorporating tools like Tailwind CSS and Bootstrap
-                        5, I ensure that every interaction with the application
-                        is intuitive and visually delightful.
+                        I create user interfaces and experiences by staying
+                        current with design principles and using tools like
+                        Tailwind CSS and Bootstrap 5.
                       </p>
                     </div>
                   </div>
@@ -165,18 +154,15 @@ const Services = () => {
                       className="bg-white p-4 rounded shadow group hover:bg-blue-500 cursor-pointer transition ease-in duration-150"
                     >
                       <h3 className="text-blue-500 font-bold mb-3 group-hover:text-white group-hover:font-semibold text-2xl">
-                        Apps Development
+                        <u>Apps Development</u>
                       </h3>
 
                       <p className="text-15 text-blue-500 group-hover:text-white group-hover:font-semibold leading-7">
-                        Ready to tackle dynamic, performance-oriented web
-                        applications, I am adept at integrating data and
-                        services through APIs. My proficiency in React.js allows
-                        me to develop responsive and feature-rich applications,
-                        delivering a seamless experience across various devices.
-                        The goal is to create applications that not only
-                        function flawlessly but also leave a lasting impression
-                        on users.
+                        I'm skilled at building fast and responsive web
+                        applications. I integrate data and services through
+                        APIs. Using React.js, I create applications that work
+                        well on various devices, aiming for both functionality
+                        and a positive user experience.
                       </p>
                     </div>
                   </div>
