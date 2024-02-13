@@ -2,10 +2,9 @@ import drumkit from "../images/drumkit.png";
 import tindog from "../images/tindog.png";
 import simon from "../images/simon.png";
 import keeper from "../images/keeper.png";
-import portfolio from "../images/portfolio.png";
 import medicare from "../images/medicare.png"
 import finance from "../images/finance.png"
-import besteats from "../images/besteats.png.png"
+import besteats from "../images/besteats.png"
 
 const portfolios = [
   {
