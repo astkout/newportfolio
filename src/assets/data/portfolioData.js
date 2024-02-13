@@ -5,6 +5,7 @@ import keeper from "../images/keeper.png";
 import portfolio from "../images/portfolio.png";
 import medicare from "../images/medicare.png"
 import finance from "../images/finance.png"
+import besteats from "../images/besteats.png.png"
 
 const portfolios = [
   {
@@ -13,22 +14,32 @@ const portfolios = [
     category: "Web Design",
     title: "Medicare",
     description: "My first medical page.",
-    technologies: ["React", "Tailwind", "Node.js"],
-    siteUrl: "https://medicare-dun.vercel.app/",
+    technologies: ["React", "Tailwind"],
+    siteUrl: "https://besteats-nu.vercel.app/",
     siteUrla: "https://github.com/astkout/medicare",
   },
   {
     id: "02",
+    imgUrl: besteats,
+    category: "Web Design",
+    title: "BestEats",
+    description: "Delivery Services",
+    technologies: ["React.js", "Tailwind CSS"],
+    siteUrl: "https://besteats-nu.vercel.app/",
+    siteUrla: "https://github.com/astkout/besteats",
+  },
+  {
+    id: "03",
     imgUrl: finance,
     category: "Web Design",
     title: "FINANCE.",
     description: "A finance webpage",
-    technologies: ["React", "Tailwind", "Node"],
+    technologies: ["React", "Tailwind"],
     siteUrl: "https://finance-astkout.vercel.app/",
     siteUrla: "https://github.com/astkout/finance",
   },
   {
-    id: "03",
+    id: "04",
     imgUrl: tindog,
     category: "Web Design",
     title: "Tindog",
@@ -37,9 +48,9 @@ const portfolios = [
     siteUrl: "https://tindog-pffl-astkout.vercel.app/",
     siteUrla: "https://github.com/astkout/tindog",
   },
-  
+ 
   {
-    id: "04",
+    id: "05",
     imgUrl: keeper,
     category: "Ux",
     title: "Keeper App.",
@@ -49,7 +60,7 @@ const portfolios = [
     siteUrla: "https://github.com/astkout/Keeper",
   },
   {
-    id: "05",
+    id: "06",
     imgUrl: drumkit,
     category: "Ux",
     title: "Drumkit Interactive Game.",
@@ -60,7 +71,7 @@ const portfolios = [
     siteUrla: "https://github.com/astkout/DrumKit",
   },
   {
-    id: "06",
+    id: "07",
     imgUrl: simon,
     category: "Ux",
     title: "Simon Says Game.",
