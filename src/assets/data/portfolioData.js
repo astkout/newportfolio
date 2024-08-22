@@ -14,7 +14,7 @@ const portfolios = [
     title: "Medicare",
     description: "My first medical page.",
     technologies: ["React", "Tailwind"],
-    siteUrl: "https://besteats-nu.vercel.app/",
+    siteUrl: "https://medicare-dun.vercel.app/",
     siteUrla: "https://github.com/astkout/medicare",
   },
   {
